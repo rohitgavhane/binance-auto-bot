@@ -197,19 +197,29 @@ const MiniDashboard = () => {
 
                 </div>
 
-                {/* EMA */}
+                {/* EMA20 */}
 
                 <div className="bg-slate-900 rounded-2xl p-4 border border-slate-800">
 
                     <p className="text-slate-400 text-sm mb-2">
-                        EMA 20 / 50
+                        EMA 20
                     </p>
 
                     <h2 className="text-2xl font-bold">
                         {latestCandle.ema20?.toFixed(2)}
                     </h2>
 
-                    <h2 className="text-xl text-slate-400">
+                </div>
+
+                {/* EMA50 */}
+
+                <div className="bg-slate-900 rounded-2xl p-4 border border-slate-800">
+
+                    <p className="text-slate-400 text-sm mb-2">
+                        EMA 50
+                    </p>
+
+                    <h2 className="text-2xl font-bold">
                         {latestCandle.ema50?.toFixed(2)}
                     </h2>
 
@@ -289,7 +299,7 @@ const MiniDashboard = () => {
                 <div className="bg-slate-900 rounded-2xl p-4 border border-slate-800">
 
                     <p className="text-slate-400 text-sm mb-2">
-                        Balance Left
+                        Live Balance
                     </p>
 
                     <h2 className="text-2xl font-bold">
