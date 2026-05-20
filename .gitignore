@@ -1,9 +1,9 @@
 node_modules
 dist
 client/dist
-.env
 server/.env
 client/.env
 *.log
 .DS_Store
 config/vision-key.json
+config.bat
